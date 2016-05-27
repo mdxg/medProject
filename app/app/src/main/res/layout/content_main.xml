@@ -12,8 +12,40 @@
     tools:context="de.rwth.pulsuhr.pulsuhr.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+
+  <!--  <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/MainContent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:name="de.rwth.pulsuhr.pulsuhr.MeasurePulse"
+        tools:layout="@layout/fragment_measure_pulse" /> -->
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Connect"
+      android:id="@+id/btnConnect"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="77dp"
+      android:onClick="connect" />
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Write start"
+      android:id="@+id/btnStart"
+      android:layout_below="@+id/btnConnect"
+      android:layout_centerHorizontal="true"
+      android:onClick="writeStart" />
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Write continue"
+      android:id="@+id/btnContinue"
+      android:layout_below="@+id/btnStart"
+      android:layout_centerHorizontal="true"
+      android:onClick="writeContinue" />
 </RelativeLayout>
