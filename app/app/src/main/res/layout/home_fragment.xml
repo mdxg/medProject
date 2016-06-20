@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- Buttons sind nur zum testen, werden später gelöscht -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connect"
+            android:id="@+id/btnConnect"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="77dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Write start"
+            android:id="@+id/btnStart"
+            android:layout_below="@+id/btnConnect"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Write continue"
+            android:id="@+id/btnContinue"
+            android:layout_below="@+id/btnStart"
+            android:layout_centerHorizontal="true" />
+
+        <!--Hier muss noch ein Label mit wilkommenstext rein, am besten über eine String Ressource
+         Und dann noch zwei Label, eins einfach mit Status: und eins das ich später verändere für den bluetooth zustand -->
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,5 +1,6 @@
 package de.rwth.pulsuhr.pulsuhr;
 
+import android.app.FragmentManager;
 import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,8 +21,6 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    PulsUhr pulsuhr;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +36,8 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        pulsuhr = new PulsUhr(this, "98:D3:31:90:41:88");
+
+        getFragmentManager().beginTransaction().replace(R.id.content_frame,new HomeFragment()).commit();
     }
 
     @Override
@@ -77,33 +77,23 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-        if (id == R.id.nav_camera) {
-            //open MeasurePulse fragment
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
+        FragmentManager fragmentManager = getFragmentManager();
+        if (id == R.id.nav_home_fragment) {
+            //open Home screen
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new HomeFragment()).commit();
+        } else if (id == R.id.nav_measure_pulse_fragment) {
+            //open measure pulse screen
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new MeasurePulsFragment(), "MeasurePulse").commit();
+        } else if (id == R.id.nav_pulse_history) {
+            //open pulse history screen
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new PulsHistoryFragment()).commit();
+        } else if(id == R.id.nav_settings_fragment){
+            //open settings screen
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new SettingsFragment()).commit();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
-    }
-
-    void connect(View view)
-    {
-        pulsuhr.connect();
-    }
-
-    void writeStart(View view)
-    {
-        pulsuhr.startBeacon();
-        Log.i("Send", "startBeacon");
-    }
-
-    void writeContinue(View view)
-    {
-        pulsuhr.continueBeacon();
-        Log.i("Send", "continueBeacon");
     }
 }
