@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity
             fragmentManager.beginTransaction().replace(R.id.content_frame, new HomeFragment()).commit();
         } else if (id == R.id.nav_measure_pulse_fragment) {
             //open measure pulse screen
-            fragmentManager.beginTransaction().replace(R.id.content_frame, new MeasurePulsFragment()).commit();
+            fragmentManager.beginTransaction().replace(R.id.content_frame, new MeasurePulsFragment(), "MeasurePulse").commit();
         } else if (id == R.id.nav_pulse_history) {
             //open pulse history screen
             fragmentManager.beginTransaction().replace(R.id.content_frame, new PulsHistoryFragment()).commit();
