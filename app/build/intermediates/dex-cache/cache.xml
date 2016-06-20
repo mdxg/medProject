@@ -1,2 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="941bf5c70c3ba50f214f6259d087d5d524d13b65">
+        <dex dex="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d6013450d27bb02cd9c8d96178770b237b446d1b/classes.dex" />
+    </item>
+    <item
+        jar="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_2065d674f7c01e1ef7c58d4aee8f36456fd8dfae/classes.dex" />
+    </item>
+    <item
+        jar="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/exploded-aar/com.jjoe64/graphview/4.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="37bf8de5b4f9e7e93006db783b9b3168e32e38e9">
+        <dex dex="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jjoe64-graphview-4.0.1_f3b91630a13a310b2a249b4109795bd40c45d9eb/classes.dex" />
+    </item>
+    <item
+        jar="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_6cd9ed9144f686e31c9bc3612100f6ba6d5639eb/classes.dex" />
+    </item>
+    <item
+        jar="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_6804ffbe0a05c411c3ec10ea437bff68e823edef/classes.dex" />
+    </item>
+    <item
+        jar="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f5bc4dfffcab9fa6b5ae216fc1533f06778411b1">
+        <dex dex="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ac19c48ecc31984503bc53a85b6c6f34e11246a6/classes.dex" />
+    </item>
+    <item
+        jar="/home/steffen/Android/sdk2/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_7ced4e364f5bebd2b24b0de8c06d6949706d15ab/classes.dex" />
+    </item>
+    <item
+        jar="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_9d02f90d3e5d7ffcda208c7b7e96d86f84c66ee0/classes.dex" />
+    </item>
+    <item
+        jar="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_36292586d163074c402861c6d08e3f72267702a9/classes.dex" />
+    </item>
+    <item
+        jar="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_e15ad278c8ac4d059ea4f5937f29677c5624e2a3/classes.dex" />
+    </item>
+    <item
+        jar="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/home/steffen/AndroidStudioProjects/medProject/app/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_f4dc302d6d7ef5a7111a18cb9272780a79c662b0/classes.dex" />
+    </item>
+
+</items>
